@@ -1,0 +1,27 @@
+
+mat-toolbar > :last-child {
+  margin-left: auto;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  color: lightgray;
+}
+
+@media screen and (max-width: 589px) {
+  .menu, button {
+    display: none;
+  }
+}

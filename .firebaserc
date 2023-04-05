@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "forward-citron-277207": {
+      "hosting": {
+        "hello-world": [
+          "forward-citron-277207"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "forward-citron-277207"
+  }
+}

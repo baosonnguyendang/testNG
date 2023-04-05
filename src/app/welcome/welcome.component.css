@@ -1,0 +1,15 @@
+.welcome {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+}
+
+@media screen and (min-width: 1200px) {
+    .welcome {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,13 @@
+.new-training {
+    padding: 30px;
+}
+
+mat-card {
+    width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    mat-card {
+        width: 100%;
+    }
+}
